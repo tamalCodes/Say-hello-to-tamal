@@ -1,0 +1,62 @@
+.parent {
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.landing_hello h3 {
+  font-family: "Indie Flower", cursive;
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.landing_imgdiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.landing_imgdiv2 {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .landing_imgdiv {
+    display: none;
+  }
+  .landing_imgdiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .portfolioimg_mob {
+    max-height: 250px !important ;
+    min-height: 250px !important ;
+    max-width: 250px !important ;
+    min-width: 250px !important ;
+    border-radius: 50%;
+  }
+
+  .landing_heythere {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 20px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #0f4a53;
+  }
+  .landing_heythere2 {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    color: #1c2e31;
+  }
+}
