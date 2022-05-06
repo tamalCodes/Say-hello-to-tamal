@@ -18,7 +18,7 @@ const Navbar = () => {
 
                     <div className={styles.brand}>
 
-                        <Image alt='nvb' src={nvb} width={50} height={50} />
+                        <Image alt='nvb' src={nvb} width={45} height={45} />
 
 
                     </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <ul className="navbar-nav  mb-2 mb-lg-0 ">
                         <Link href={"/"} passHref>
                             <li className={`nav-item ${styles.navlinks}`}>
                                 Projects
