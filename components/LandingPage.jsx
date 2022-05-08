@@ -21,9 +21,10 @@ const LandingPage = () => {
                         <div className={styles.landingheydesktop}>
 
                             <div className={styles.landing_navbar}>
-                                <p className={styles.navlink1}>Projects</p>
-                                <p className={styles.navlink2}>About me</p>
-                                <p className={styles.navlink3}>Contact me</p>
+                                <Link href={"/projects"} ><p className={styles.navlink1}>Projects</p></Link>
+                                <Link href={"/about"} ><p className={styles.navlink2}>About me</p></Link>
+                                <Link href={"/contact"} ><p className={styles.navlink3}>Contact me</p></Link>
+
                             </div>
 
                             <p className={styles.landing_heythere}>Hey there, <br /> I&apos;m Tamal</p>
