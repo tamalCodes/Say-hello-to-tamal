@@ -1,16 +1,20 @@
 import React from 'react'
-import styles from "../styles/Landing.module.css"
+import styles2 from "../styles/Landing.module.css"
+import styles from "../styles/About.module.css"
 import Image from "next/image"
-import pimg from "../public/assets/mobport.svg"
+import pimg from "../public/assets/tamalabt_mob.png"
 import pimg2 from "../public/assets/tamalport1.png"
 import Navbar from '../components/Navbar'
 import Link from 'next/link'
 import Head from "next/head"
 import tdabt from "../public/assets/tdabt.png"
+import skill from "../public/assets/skilllogo_mob.svg"
+import g1 from "../public/assets/gitgh.jpg"
+import g2 from "../public/assets/gitgh2.jpg"
 
 const about = () => {
     return (
-        <div className={styles.parent}>
+        <div className={styles2.parent}>
 
             <Head>
                 <title>Portfolio | About</title>
@@ -18,19 +22,19 @@ const about = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className={styles.navbardiv}>
+            <div className={styles2.navbardiv}>
                 <Navbar />
             </div>
 
-            <div className={`container ${styles.parentDesktop}`}>
+            <div className={`container ${styles2.parentDesktop}`}>
                 <div className="row">
 
 
                     <div className={`col-4`}>
-                        <div className={styles.landing_imgdiv}>
+                        <div className={styles2.landing_imgdiv}>
 
 
-                            <Image src={tdabt} width={350} height={350} alt="portfolio" className={styles.portfolioimg} />
+                            <Image src={tdabt} width={350} height={350} alt="portfolio" className={styles2.portfolioimg} />
 
 
 
@@ -38,16 +42,16 @@ const about = () => {
                     </div>
 
                     <div className={`col-8`}>
-                        <div className={styles.landingheydesktop}>
+                        <div className={styles2.landingheydesktop}>
 
-                            <div className={styles.landing_navbar}>
-                                <Link href={"/projects"} ><p className={styles.navlink1}>Projects</p></Link>
-                                <Link href={"/about"} ><p className={styles.navlink2}>About me</p></Link>
-                                <Link href={"/contact"} ><p className={styles.navlink3}>Contact me</p></Link>
+                            <div className={styles2.landing_navbar}>
+                                <Link href={"/projects"} ><p className={styles2.navlink1}>Projects</p></Link>
+                                <Link href={"/about"} ><p className={styles2.navlink2}>About me</p></Link>
+                                <Link href={"/contact"} ><p className={styles2.navlink3}>Contact me</p></Link>
 
                             </div>
 
-                            <p className={styles.landing_heythere}>Here&apos;s all, <br /> about me</p>
+                            <p className={styles2.landing_heythere}>Here&apos;s all, <br /> about me</p>
 
                             <p className={styles.landing_heythere2}>I am Tamal Das , a sophomore pursuing BTech in CSE from UEMk. I am 20 years old , in love with developing new products and being active in all dev communities.
 
@@ -71,15 +75,74 @@ const about = () => {
 
 
 
-            <div className={styles.landing_imgdiv2}>
+            <div className={styles2.landing_imgdiv2}>
 
-                <p className={styles.landing_heythere}>Hey there, <br /> I&apos;m Tamal</p>
+                <p className={styles2.landing_heythere}>Here&apos;s all, <br /> about me</p>
 
-                <p className={styles.landing_heythere2}>I design beautifully simple things, <br /> And I love what i do.</p>
+                <p className={styles.landing_heythere2}>
 
-                <Image src={pimg} width={350} height={350} alt="twitterdp" className={styles.portfolioimg_mob} />
+                    I am Tamal Das, a 21 year old sophomore pursuing Bachelors in CSE from UEM, Kolkata. <br />
+
+                </p>
+
+                <Image src={pimg} width={350} height={350} alt="twitterdp" className={styles2.portfolioimg_mob} />
+
+                <br />
+                <hr className={styles.abthr} />
+                <br />
+                <br />
+                <p className={styles2.landing_heythere}>What am i, <br /> skilled at ?</p>
+                <p className={styles.landing_heythere2}>
+
+                    Here&apos;s some of them, i love making cool stuff with these and i am already learning more !! <br />
+
+                </p>
+                <br />
+                <Image src={skill} alt="skillset" width={300} height={300} />
+
+                <br />
+                <hr className={styles.abthr} />
+                <br />
+                <br />
+                <p className={styles2.landing_heythere}>What else, <br /> have i done ?</p>
+                <p className={styles.landing_heythere2}>
+
+                    I&apos;ve been doing some fun stuffs through out my first and second year!!<br />
 
 
+                </p>
+
+                <br />
+
+                <div id="carouselExampleControls" className={`carousel slide ${styles.carouselparent}`} data-bs-ride="carousel">
+                    <div className={`carousel-inner`}>
+                        <div className={`carousel-item active ${styles.carouselitem}`}>
+                            <Image src={g1} alt="skillset" width={400} height={260} className={`d-block w-100 ${styles.ghworkshopimg_mob}`} />
+                        </div>
+                        <div className={`carousel-item  ${styles.carouselitem}`}>
+                            <Image src={g2} alt="skillset" width={400} height={260} className={`d-block w-100 ${styles.ghworkshopimg_mob}`} />
+
+                        </div>
+
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <br />
+
+                <p className={styles.landing_heythere2} style={{ textAlign: "center" }}>
+
+                    1. Conducted offline workshop on Git and GitHub, under DSC UEMK with 150+ participants.<br />
+
+
+                </p>
 
             </div>
 
