@@ -11,6 +11,7 @@ import tdabt from "../public/assets/tdabt.png"
 import skill from "../public/assets/skilllogo_mob.svg"
 import g1 from "../public/assets/gitgh.jpg"
 import g2 from "../public/assets/gitgh2.jpg"
+import SkillsetDesktop from '../components/SkillsetDesktop'
 
 const about = () => {
     return (
@@ -27,7 +28,7 @@ const about = () => {
             </div>
 
             <div className={`container ${styles2.parentDesktop}`}>
-                <div className="row">
+                <div className={`row ${styles.row1}`}>
 
 
                     <div className={`col-4`}>
@@ -51,11 +52,17 @@ const about = () => {
 
                             </div>
 
-                            <p className={styles2.landing_heythere}>Here&apos;s all, <br /> about me</p>
+                            <p className={styles.landing_heythere}>Here&apos;s all, <br /> about me</p>
 
                             <p className={styles.landing_heythere2}>I am Tamal Das , a sophomore pursuing BTech in CSE from UEMk. I am 20 years old , in love with developing new products and being active in all dev communities.
 
                                 I love watching animes, travelling to places and just spending time with friends and families !!  </p>
+
+                            <br />
+
+
+
+
 
 
                         </div>
@@ -64,6 +71,11 @@ const about = () => {
 
 
                 </div>
+
+                {/* <hr className={styles.abthr} /> */}
+
+                <SkillsetDesktop />
+
             </div>
 
 
@@ -71,7 +83,7 @@ const about = () => {
 
 
 
-
+            {/* //* TOTALLY FOR MOBILE  */}
 
 
 
