@@ -32,10 +32,10 @@ const about = () => {
 
 
                     <div className={`col-4`}>
-                        <div className={styles2.landing_imgdiv}>
+                        <div className={styles.landing_imgdiv}>
 
 
-                            <Image src={tdabt} width={350} height={350} alt="portfolio" className={styles2.portfolioimg} />
+                            <Image src={tdabt} width={310} height={310} alt="portfolio" className={styles2.portfolioimg} />
 
 
 
@@ -54,7 +54,7 @@ const about = () => {
 
                             <p className={styles.landing_heythere}>Here&apos;s all, <br /> about me</p>
 
-                            <p className={styles.landing_heythere2}>I am Tamal Das , a sophomore pursuing BTech in CSE from UEMk. I am 20 years old , in love with developing new products and being active in all dev communities.
+                            <p className={styles.landing_heythere2}>I&apos;m Tamal Das , a sophomore pursuing BTech in CSE from UEMk. I&apos;m 21, in love with developing new products and being active in all dev communities.
 
                                 I love watching animes, travelling to places and just spending time with friends and families !!  </p>
 

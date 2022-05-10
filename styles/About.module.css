@@ -1,7 +1,7 @@
 .landing_heythere2 {
   font-family: "Karla", sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-left: 20px;
   color: #1c2e31;
 }
@@ -9,12 +9,16 @@
 .landing_heythere {
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  font-size: 4.6rem;
+  font-size: 4.3rem;
   padding-left: 20px;
   line-height: 70px;
   margin-bottom: 38px;
   color: #0f4a53;
-  margin-top: 9rem;
+  margin-top: 5rem;
+}
+
+.landing_imgdiv {
+  margin-top: 5rem;
 }
 
 .abthr {
