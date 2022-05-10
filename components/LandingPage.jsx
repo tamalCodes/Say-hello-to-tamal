@@ -6,6 +6,7 @@ import pimg2 from "../public/assets/tamalport1.png"
 import Navbar from './Navbar'
 import Link from 'next/link'
 
+
 const LandingPage = () => {
     return (
         <div className={styles.parent}>
@@ -31,9 +32,13 @@ const LandingPage = () => {
 
                             <p className={styles.landing_heythere2}>A passionate Web developer from India, <br /> contributing to open source and connecting communities !!  <br /> <br /> Look at my projects, know more about to me and feel free to reach out !!  </p>
 
-                            <button className={`btn btn-warning ${styles.explorebtn}`}>
-                                Explore &gt;
-                            </button>
+                            <Link href={"/about"} passHref>
+
+                                <button className={`btn btn-warning ${styles.explorebtn}`}>
+                                    Explore &gt;
+                                </button>
+
+                            </Link>
                         </div>
                     </div>
 
