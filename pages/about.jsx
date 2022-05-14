@@ -9,9 +9,11 @@ import Link from 'next/link'
 import Head from "next/head"
 import tdabt from "../public/assets/tdabt.png"
 import skill from "../public/assets/skilllogo_mob.svg"
-import g1 from "../public/assets/gitgh.jpg"
-import g2 from "../public/assets/gitgh2.jpg"
+
 import SkillsetDesktop from '../components/SkillsetDesktop'
+import Achievement_mob from '../components/Achievement_mob'
+import Acheivement1 from '../components/Acheivement1'
+import Acheivement2 from '../components/Acheivement2'
 
 const about = () => {
     return (
@@ -75,6 +77,8 @@ const about = () => {
                 {/* <hr className={styles.abthr} /> */}
 
                 <SkillsetDesktop />
+                <Acheivement1 />
+                <Acheivement2 />
 
             </div>
 
@@ -116,45 +120,9 @@ const about = () => {
                 <hr className={styles.abthr} />
                 <br />
                 <br />
-                <p className={styles2.landing_heythere}>What else, <br /> have i done ?</p>
-                <p className={styles.landing_heythere2}>
 
-                    I&apos;ve been doing some fun stuffs through out my first and second year!!<br />
+                <Achievement_mob />
 
-
-                </p>
-
-                <br />
-
-                <div id="carouselExampleControls" className={`carousel slide ${styles.carouselparent}`} data-bs-ride="carousel">
-                    <div className={`carousel-inner`}>
-                        <div className={`carousel-item active ${styles.carouselitem}`}>
-                            <Image src={g1} alt="skillset" width={400} height={260} className={`d-block w-100 ${styles.ghworkshopimg_mob}`} />
-                        </div>
-                        <div className={`carousel-item  ${styles.carouselitem}`}>
-                            <Image src={g2} alt="skillset" width={400} height={260} className={`d-block w-100 ${styles.ghworkshopimg_mob}`} />
-
-                        </div>
-
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-                <br />
-
-                <p className={styles.landing_heythere2} style={{ textAlign: "center" }}>
-
-                    1. Conducted offline workshop on Git and GitHub, under DSC UEMK with 150+ participants.<br />
-
-
-                </p>
 
             </div>
 

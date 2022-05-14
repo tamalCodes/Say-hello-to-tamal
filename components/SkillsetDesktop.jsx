@@ -17,49 +17,7 @@ const SkillsetDesktop = () => {
     return (
         <>
 
-            {/* <div className="row">
 
-
-                <div className={`col-8`}>
-                    <div className={styles2.landingheydesktop}>
-
-
-
-
-
-                        <p className={skillstyle.whatami}>What am i, <br /> skilled at ?</p>
-
-                        <p className={styles.landing_heythere2}>
-
-                            Here&apos;s some of them, i love making cool stuff with these and i am already learning more !! <br />
-
-                        </p>
-
-
-
-
-
-
-
-                    </div>
-                </div>
-
-                <div className={`col-4`}>
-                    <div className={styles2.landing_imgdiv}>
-
-
-                        <Image src={skill} alt="skillset" width={350} height={350} className={styles.skillset_img} />
-
-
-
-                    </div>
-                </div>
-
-
-
-
-
-            </div> */}
 
 
             <div className={skillstyle.parent1}>
