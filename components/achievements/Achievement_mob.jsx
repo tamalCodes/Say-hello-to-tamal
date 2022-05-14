@@ -9,7 +9,7 @@ const Achievement_mob = () => {
     return (
         <>
 
-            <p className={styles2.landing_heythere}>What else, <br /> have i done ?</p>
+            <p className={styles2.landing_heythere}>What else have i done ?</p>
             <p className={styles.landing_heythere2}>
 
                 I&apos;ve been doing some fun stuffs through out my first and second year!!<br />
