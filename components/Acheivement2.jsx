@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from "../styles/Achievement.module.css"
-import and1 from "../public/assets/and1.jpg"
-import and2 from "../public/assets/and2.jpg"
+import and1 from "../public/assets/and1.JPG"
+import and2 from "../public/assets/and2.JPG"
 import Image from "next/image"
 import { Button, Modal } from 'react-bootstrap'
 

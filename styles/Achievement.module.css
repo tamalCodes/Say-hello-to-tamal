@@ -13,7 +13,6 @@
 }
 
 .hover_img {
-  background-color: #000;
   color: #fff;
   display: inline-block;
   margin: 8px;
@@ -33,6 +32,7 @@
 .hover_img:before,
 .hover_img:after {
   background-color: rgba(0, 0, 0, 0.5);
+
   position: absolute;
   top: 0;
   bottom: 0;
