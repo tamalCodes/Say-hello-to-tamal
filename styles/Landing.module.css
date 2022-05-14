@@ -122,11 +122,13 @@
     font-family: "Karla", sans-serif;
     font-weight: 700;
     font-size: 2.9rem;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 50px;
     margin-bottom: 15px;
     color: #0f4a53;
     margin-top: 0px;
+    margin-left: 0px;
   }
   .landing_heythere2 {
     font-family: "Karla", sans-serif;
