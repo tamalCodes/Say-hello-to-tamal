@@ -110,14 +110,15 @@
   }
 
   .portfolioimg_mob {
-    max-height: 250px !important ;
-    min-height: 250px !important ;
-    max-width: 250px !important ;
-    min-width: 250px !important ;
+    max-height: 300px !important ;
+    min-height: 300px !important ;
+    max-width: 300px !important ;
+    min-width: 300px !important ;
     border-radius: 50%;
   }
 
   .landing_heythere {
+    text-align: center;
     font-family: "Karla", sans-serif;
     font-weight: 700;
     font-size: 2.9rem;

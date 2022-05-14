@@ -11,9 +11,12 @@ import tdabt from "../public/assets/tdabt.png"
 import skill from "../public/assets/skilllogo_mob.svg"
 
 import SkillsetDesktop from '../components/SkillsetDesktop'
-import Achievement_mob from '../components/Achievement_mob'
-import Acheivement1 from '../components/Acheivement1'
-import Acheivement2 from '../components/Acheivement2'
+import Acheivement1 from '../components/achievements/Acheivement1'
+import Acheivement2 from '../components/achievements/Acheivement2'
+import Acheivement3 from '../components/achievements/Acheivement3'
+import Achievement_mob from '../components/achievements/Achievement_mob'
+import Achievement_mob2 from '../components/achievements/Acheivement_mob2'
+
 
 const about = () => {
     return (
@@ -79,6 +82,7 @@ const about = () => {
                 <SkillsetDesktop />
                 <Acheivement1 />
                 <Acheivement2 />
+                <Acheivement3 />
 
             </div>
 
@@ -122,6 +126,7 @@ const about = () => {
                 <br />
 
                 <Achievement_mob />
+                <Achievement_mob2 />
 
 
             </div>
