@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import React, { useState, useEffect } from 'react';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
@@ -30,6 +31,7 @@ const Testimonial = () => {
 
   return (
     <>
+      <h2 className="head-text" style={{ marginBottom: "2rem" }}> Testimonials </h2>
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
