@@ -18,6 +18,8 @@ import Achievement_mob from '../components/achievements/Achievement_mob'
 import Achievement_mob2 from '../components/achievements/Acheivement_mob2'
 import Acheivement_mob3 from '../components/achievements/Acheivement_mob3'
 import Achievement_mob4 from '../components/achievements/Acheivement_mob4'
+import Acheivement4 from '../components/achievements/Acheivements4'
+import Experience from '../components/Experience'
 
 
 const about = () => {
@@ -84,10 +86,13 @@ const about = () => {
 
                     {/* <hr className={styles.abthr} /> */}
 
+                    <Experience />
+
                     <SkillsetDesktop />
                     <Acheivement1 />
                     <Acheivement2 />
                     <Acheivement3 />
+                    <Acheivement4 />
 
                 </div>
 
