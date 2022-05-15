@@ -12,7 +12,7 @@ const Communities = () => {
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "abouts"]';
+    const query = '*[_type == "comms"]';
 
     client.fetch(query).then((data) => {
       setAbouts(data);
@@ -35,7 +35,8 @@ const Communities = () => {
             <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className="abthead" style={{ marginTop: 20 }}>{about.title}</h2>
             <p className="abtdesc" style={{ marginTop: 25 }}>{about.description}</p>
-            <p className="abtdesc" style={{ marginTop: 10, color: "black", fontWeight: "600" }}>Hello</p>
+            <a href={about.link} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Visit</a>
+            <a href={about.link} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Checkout the tweet here</a>
 
           </motion.div>
         ))}
@@ -46,6 +47,6 @@ const Communities = () => {
 
 export default AppWrap(
   MotionWrap(Communities, 'app__about'),
-  'about',
+  'communities',
   'app__whitebg',
 );
