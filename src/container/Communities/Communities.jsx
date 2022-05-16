@@ -36,7 +36,7 @@ const Communities = () => {
             <h2 className="abthead" style={{ marginTop: 20 }}>{about.title}</h2>
             <p className="abtdesc" style={{ marginTop: 25 }}>{about.description}</p>
             <a href={about.link} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Visit</a>
-            <a href={about.link} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Checkout the tweet here</a>
+            <a href={about.twitterlink} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Checkout the tweet here</a>
 
           </motion.div>
         ))}
