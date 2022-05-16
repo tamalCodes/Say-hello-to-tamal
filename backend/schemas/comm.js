@@ -26,5 +26,10 @@ export default {
       title: "Link",
       type: "string",
     },
+    {
+      name: "twitterlink",
+      title: "Twitter Link",
+      type: "string",
+    },
   ],
 };
