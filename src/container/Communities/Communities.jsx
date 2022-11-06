@@ -47,6 +47,6 @@ const Communities = () => {
 
 export default AppWrap(
   MotionWrap(Communities, 'app__about'),
-  'communities',
+  'community work',
   'app__whitebg',
 );
