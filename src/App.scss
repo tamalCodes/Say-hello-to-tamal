@@ -3,6 +3,29 @@
   font-family: var(--font-base);
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #28282b;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #28282b00;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #323CAC;
+  border-radius: 10px;
+  /*   border: 3px solid #323CAC; */
+}
+
+
 .app__whitebg {
   background-color: var(--white-color);
 }
@@ -178,6 +201,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
   .app__navigation,
   .app__social {
     display: none;
