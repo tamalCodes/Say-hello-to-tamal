@@ -7,6 +7,7 @@ import React from 'react';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import communityData from './communityData';
+import { motion } from 'framer-motion';
 
 const Communities = () => (
   <>
@@ -14,7 +15,7 @@ const Communities = () => (
 
     <div className="app__profiles">
       {communityData.map((el, index) => (
-        <div
+        <motion.div
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: 'tween' }}
@@ -27,7 +28,7 @@ const Communities = () => (
           <a href={el.visitlink} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600" }}>Visit</a>
           <a href={el.twitterlink} className="abtdesc" style={{ marginTop: 10, color: "#313bac", fontWeight: "600", textDecoration: "underline" }}>Social media post</a>
 
-        </div>
+        </motion.div>
       ))}
     </div>
   </>

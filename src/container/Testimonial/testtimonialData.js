@@ -11,7 +11,7 @@ const testtimonialdata = [
     picture: Niloy,
     postition: "GSoC'22@SCoRe Lab | GDSC JGEC Founder and Lead '21-22",
     description:
-      "Tamal Das is one of the most skillful and talented open source developers I have come across at JGEC Winter of Code 2K22, he facilitated numerous mentorship calls for the participants. On behalf of the entire Organizing Team of JWOC 2K22, I highly appreciate Tamal's efforts to foster the spirit of community bonding and cooperation among the aspiring software developers. His imaginative prowess and enthusiasm will be a great asset to any organization.",
+      "Tamal is one of the most skillful and talented open source developers I have come across at JGEC Winter of Code 2K22, he facilitated numerous mentorship calls for the participants. On behalf of the entire Organizing Team of JWOC 2K22, I highly appreciate Tamal's efforts to foster the spirit of community bonding and cooperation among the aspiring software developers. His imaginative prowess and enthusiasm will be a great asset to any organization.",
   },
   {
     id: 2,

@@ -7,8 +7,18 @@ import jam from "../../assets/community/jam.jpg";
 import MAIT from "../../assets/community/MAIT.jpg";
 import Unilag from "../../assets/community/Unilag.jpg";
 import azure from "../../assets/community/azure.jpg";
+import debuggerr from "../../assets/community/debugger.jpeg";
 
 const communityData = [
+  {
+    img: debuggerr,
+    title: "Debugger 4.0",
+    description:
+      "Organized Debugger 4.0 - an offline coding event with 100+ participants",
+    visitlink:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7033477698911948800/",
+    tweetlink: "https://twitter.com/mrTamall/status/1627718153991249920",
+  },
   {
     img: gssoc,
     title: "Opensource Mentor",
