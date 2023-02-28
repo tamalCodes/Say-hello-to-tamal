@@ -28,11 +28,9 @@ const Skills = () => {
       <h2 className="head-text">Skills, Experience & Achievements 🎉</h2>
 
       <div className="app__skills-container">
-        <motion.div className="app__skills-list">
+        <div className="app__skills-list">
           {skills.map((skill) => (
-            <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
+            <div
               className="app__skills-item app__flex"
               key={skill.name}
             >
@@ -43,22 +41,24 @@ const Skills = () => {
                 <img src={urlFor(skill.icon)} alt={skill.name} />
               </div>
               <p className="p-text">{skill.name}</p>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
+
+
         <div className="app__skills-exp">
           {experiences.map((experience) => (
-            <motion.div
+            <div
               className="app__skills-exp-item"
               key={experience.year}
             >
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
-              <motion.div className="app__skills-exp-works">
+              <div className="app__skills-exp-works">
                 {experience.works.map((work) => (
                   <>
-                    <motion.div
+                    <div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
@@ -68,7 +68,7 @@ const Skills = () => {
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
-                    </motion.div>
+                    </div>
                     <ReactTooltip
                       id={work.name}
                       effect="solid"
@@ -79,8 +79,8 @@ const Skills = () => {
                     </ReactTooltip>
                   </>
                 ))}
-              </motion.div>
-            </motion.div>
+              </div>
+            </div>
           ))}
         </div>
       </div>

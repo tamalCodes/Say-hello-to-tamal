@@ -18,7 +18,7 @@ const scaleVariants = {
 
 const Header = () => (
   <div className="app__header app__flex">
-    <motion.div
+    <div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
       className="app__header-info"
@@ -38,9 +38,9 @@ const Header = () => (
           <p className="p-text">Opensource advocate</p>
         </div>
       </div>
-    </motion.div>
+    </div>
 
-    <motion.div
+    <div
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
@@ -53,9 +53,9 @@ const Header = () => (
         alt="profile_circle"
         className="overlay_circle"
       />
-    </motion.div>
+    </div>
 
-    <motion.div
+    <div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
@@ -65,7 +65,7 @@ const Header = () => (
           <img src={circle} alt="profile_bg" />
         </div>
       ))}
-    </motion.div>
+    </div>
   </div>
 );
 
