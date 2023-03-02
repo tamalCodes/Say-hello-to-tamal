@@ -8,11 +8,21 @@ import MAIT from "../../assets/community/MAIT.jpg";
 import Unilag from "../../assets/community/Unilag.jpg";
 import azure from "../../assets/community/azure.jpg";
 import debuggerr from "../../assets/community/debugger.jpeg";
+import ureckathon from "../../assets/community/ureckathon.png";
 
 const communityData = [
   {
+    img: ureckathon,
+    title: "Organized Ureckathon",
+    description:
+      "Organized Ureckathon 3.0, a hackathon which recieved 200+ teams, and over 100 projects. ",
+    visitlink: "https://ureck-a-thon.uem.edu.in/",
+    tweetlink:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7030418470265659392/",
+  },
+  {
     img: debuggerr,
-    title: "Debugger 4.0",
+    title: "Lead organizer Debugger 4.0",
     description:
       "Organized Debugger 4.0 - an offline coding event with 100+ participants",
     visitlink:

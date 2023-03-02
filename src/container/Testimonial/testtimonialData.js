@@ -3,6 +3,7 @@
 import Niloy from "../../assets/testimonials/Niloy.jpg";
 import Manuel from "../../assets/testimonials/Manuel.jpg";
 import Donald from "../../assets/testimonials/Donald.jpg";
+import ShivamKumar from "../../assets/testimonials/ShivamKumar.jpeg";
 
 const testtimonialdata = [
   {
@@ -28,6 +29,14 @@ const testtimonialdata = [
     postition: "CEO @Innception",
     description:
       "Tamal was a great dev at my team, i loved the way he developed an algorithm quick and easily and he was very punctual during dev-meets irrespective of the time differences we have , i highly recommend him for his upcoming positions.",
+  },
+  {
+    id: 4,
+    name: "Shivam Kumar",
+    picture: ShivamKumar,
+    postition: "DC Analyst at Deloitte USI, AI&DE",
+    description:
+      "Tamal has been an amazing web developer, as a client i am super happy with the work despite of the time crunches.",
   },
 ];
 
