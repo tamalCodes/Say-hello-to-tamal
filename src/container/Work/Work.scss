@@ -46,12 +46,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 
   .app__work-item {
-    width: 270px;
+    width: 280px;
+    max-width: 300px;
+    min-height: 420px;
+    max-height: 420px;
     flex-direction: column;
-
-    margin: 2rem;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #fff;
@@ -62,6 +64,7 @@
 
     &:hover {
       box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
     }
 
     @media screen and (min-width: 2000px) {
@@ -74,6 +77,10 @@
       width: 100%;
       margin: 1rem;
     }
+  }
+
+  .app__work-item:hover .app__work-hover {
+    opacity: 1 !important;
   }
 }
 
@@ -107,7 +114,8 @@
 
   border-radius: 0.5rem;
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
+
 
   div {
     width: 50px;
@@ -138,11 +146,16 @@
 
   h4 {
     margin-top: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 
     @media screen and (min-width: 2000px) {
       margin-top: 3rem;
     }
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   .app__work-tag {

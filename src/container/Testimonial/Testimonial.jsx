@@ -19,7 +19,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <h2 className="head-text" style={{ marginBottom: "2rem" }}> Testimonials from clients </h2>
+      <h2 className="head-text" style={{ marginBottom: "2rem" }}> Hear From My <span>Satisfied Clients</span> and <br /> Their Success Stories </h2>
       {testtimonialdata.length && (
         <>
           <div className="app__testimonial-item app__flex">
