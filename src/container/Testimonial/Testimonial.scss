@@ -64,16 +64,23 @@
     }
   }
 
+  div {
+    cursor: pointer;
+    user-select: none;
+  }
+
   h4 {
     font-weight: 600;
     color: var(--secondary-color);
     margin-top: 2rem;
+    font-size: 20px;
   }
 
   h5 {
     font-weight: 400;
     color: var(--gray-color);
     margin-top: 5px;
+    font-size: 17px;
   }
 
   @media screen and (max-width: 600px) {

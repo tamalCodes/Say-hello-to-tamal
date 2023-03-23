@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
@@ -16,6 +17,7 @@ const Skills = () => {
 
     client.fetch(query).then((data) => {
       setExperiences(data);
+      console.log(data);
     });
 
     client.fetch(skillsQuery).then((data) => {
@@ -30,21 +32,23 @@ const Skills = () => {
       <div className="app__skills-container">
         <div className="app__skills-list">
           {skills.map((skill) => (
-            <div
-              className="app__skills-item app__flex"
-              key={skill.name}
-            >
+            <>
               <div
-                className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
+                className="app__skills-item app__flex tooltip"
+                key={skill.name}
               >
-                <img src={urlFor(skill.icon)} alt={skill.name} />
+                <div
+                  className="app__flex"
+                  style={{ backgroundColor: skill.bgColor }}
+                >
+                  <img src={urlFor(skill.icon)} alt={skill.name} />
+                </div>
+                <span className="tooltiptext">{skill.name}</span>
+
               </div>
-              <p className="p-text">{skill.name}</p>
-            </div>
+            </>
           ))}
         </div>
-
 
         <div className="app__skills-exp">
           {experiences.map((experience) => (
@@ -63,14 +67,14 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tip
-                      data-for={work.name}
-                      key={work.name}
+                      data-for={work._key}
+                      key={work._key}
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </div>
                     <ReactTooltip
-                      id={work.name}
+                      id={work._key}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"

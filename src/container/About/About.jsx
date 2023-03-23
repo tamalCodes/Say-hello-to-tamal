@@ -30,7 +30,7 @@ const About = () => {
     <>
       {/*   <h2 className="head-text"> What makes me a  <span>Good Dev ? </span> <br />It&apos;s the  <span>awesome products i build.</span></h2> */}
 
-      <h2 className="head-text"> Bringing Your Digital Vision to Life ! <br /> <span>The services i provide:</span> </h2>
+      <h2 className="head-text"> Bringing Your Digital Vision to Life with <br /> <span>The services i provide</span> </h2>
 
       <div className="about__profiles">
         <div
