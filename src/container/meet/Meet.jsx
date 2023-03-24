@@ -7,7 +7,7 @@ const Meet = () => {
         if (window.location.pathname === '/meet') {
             setTimeout(() => {
                 window.location.href = 'https://meet.google.com/bwr-rhma-exk';
-            }, 2000);
+            }, 500);
         }
     }, []);
 
