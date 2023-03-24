@@ -8,17 +8,20 @@ import Communities from '../Communities/Communities';
 import Testimonial from '../Testimonial/Testimonial';
 import Footer from '../Footer/Footer';
 
-const Landing = () => (
-    <div className="app">
-        <Navbar />
-        <Header />
-        <About />
-        <Work />
-        <Skills />
-        <Communities />
-        <Testimonial />
-        <Footer />
-    </div>
-);
 
-export default Landing;
+const Landing = () => {
+    return (
+        <div className="app">
+            <Navbar />
+            <Header />
+            <About />
+            <Work />
+            <Skills />
+            <Communities />
+            <Testimonial />
+            <Footer />
+        </div>
+    )
+}
+
+export default Landing
