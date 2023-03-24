@@ -5,8 +5,9 @@ import React, { useEffect } from "react";
 
 import "./App.scss";
 
-import { Landing, Meet } from "./container";
+import { Landing } from "./container";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Meet from "./container/meet/Meet";
 
 
 const App = () => {

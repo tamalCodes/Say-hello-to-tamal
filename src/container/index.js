@@ -6,7 +6,6 @@ import Skills from "./Skills/Skills";
 import Testimonial from "./Testimonial/Testimonial";
 import Work from "./Work/Work";
 import Communities from "./Communities/Communities";
-import Meet from "./Meet/Meet";
 import Landing from "./Landing/Landing";
 
 export {
@@ -17,6 +16,5 @@ export {
   Testimonial,
   Work,
   Communities,
-  Meet,
   Landing,
 };
