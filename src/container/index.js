@@ -6,5 +6,17 @@ import Skills from "./Skills/Skills";
 import Testimonial from "./Testimonial/Testimonial";
 import Work from "./Work/Work";
 import Communities from "./Communities/Communities";
+import Meet from "./Meet/Meet";
+import Landing from "./Landing/Landing";
 
-export { About, Footer, Header, Skills, Testimonial, Work, Communities };
+export {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Testimonial,
+  Work,
+  Communities,
+  Meet,
+  Landing,
+};

@@ -2,33 +2,29 @@
 /* eslint-disable quotes */
 import React, { useEffect } from "react";
 
-import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
-import { Navbar } from "./components";
+
 import "./App.scss";
-import Communities from "./container/Communities/Communities";
+
+import { Landing, Meet } from "./container";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 const App = () => {
 
 
 
-  useEffect(() => {
-    if (window.location.pathname === "/meet") {
-      window.location.href = "https://meet.google.com/bwr-rhma-exk";
-    }
-  }, []);
-
-
   return (
-    <div className="app">
-      <Navbar />
-      <Header />
-      <About />
-      <Work />
-      <Skills />
-      <Communities />
-      <Testimonial />
-      <Footer />
-    </div>
+    /*  */
+
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/meet" element={<Meet />} />
+        </Routes>
+
+      </Router>
+    </>
   );
 }
 
