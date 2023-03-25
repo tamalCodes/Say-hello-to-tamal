@@ -1,25 +1,22 @@
-/* eslint-disable react/jsx-indent */
-import React, { useEffect } from 'react';
-import { Navbar } from '../../components';
+import React, { useEffect } from 'react'
 
-const Meet = () => {
-    document.title = "Meet Tamal";
+const Linkedin = () => {
+    document.title = "Tamal's LinkedIn";
     useEffect(() => {
-        if (window.location.pathname === '/meet') {
+        if (window.location.pathname === '/linkedin') {
             setTimeout(() => {
-                window.location.href = 'https://meet.google.com/bwr-rhma-exk';
-            }, 500);
+                window.location.href = 'https://www.linkedin.com/in/say-hello-to-tamal/';
+            }, 800);
         }
     }, []);
-
     return (
         <>
             <div className='externalpage' style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: 'auto', justifyItems: 'center', fontWeight: '600', fontFamily: 'sans-serif', fontSize: '3rem', height: '100vh' }}>
-                <p> Loading your meeting 🚀 </p>
+                <p> Charging your <br /> professional batteries 🔋 </p>
             </div>
 
         </>
-    );
-};
+    )
+}
 
-export default Meet;
+export default Linkedin

@@ -18,3 +18,9 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+
+.externalpage {
+  font-family: 'Poppins', sans-serif !important;
+  letter-spacing: 0.1rem;
+}

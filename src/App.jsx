@@ -9,6 +9,9 @@ import { Landing } from "./container";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Meet from "./container/meet/Meet";
 import Resume from "./container/resume/Resume";
+import Linkedin from "./container/linkedin/Linkedin";
+import Github from "./container/github/Github";
+import Twitter from "./container/twitter/Twitter";
 
 
 const App = () => {
@@ -24,6 +27,9 @@ const App = () => {
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/meet" element={<Meet />} />
           <Route exact path="/resume" element={<Resume />} />
+          <Route exact path="/github" element={<Github />} />
+          <Route exact path="/linkedin" element={<Linkedin />} />
+          <Route exact path="/twitter" element={<Twitter />} />
         </Routes>
 
       </Router>
