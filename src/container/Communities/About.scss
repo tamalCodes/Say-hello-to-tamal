@@ -1,63 +1,43 @@
-.app__about {
-  flex: 1;
-  width: 100%;
-  flex-direction: column;
-}
-
-.app__profiles {
+.comm_cardsdiv {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  justify-content: center;
+  gap: 3.3rem;
+  margin-top: 4rem;
 }
 
-.abtdesc {
-  font-size: 0.8rem;
-  text-align: left;
-  color: var(--gray-color);
-  line-height: 1.5;
+.comm_card {
+  width: 310px;
+  max-width: 310px;
+  padding: 20px;
+  background-color: #F2F7FB;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
 
-  @media screen and (min-width: 2000px) {
-    font-size: 1.75rem;
-  }
-}
-
-.abthead {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--black-color);
-  text-align: left;
-
-  @media screen and (min-width: 2000px) {
-    font-size: 2rem;
-  }
-
-  @media screen and (max-width: 450px) {
-    font-size: 1.2rem;
-  }
-}
-.app__profile-item {
-  width: 200px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 2rem;
 
   img {
     width: 100%;
-    height: 170px;
-    border-radius: 15px;
+    height: 200px;
     object-fit: cover;
+    border-radius: 10px;
   }
 
-  @media screen and (min-width: 2000px) {
-    width: 370px;
-    margin: 2rem 4rem;
-
-    img {
-      height: 320px;
-    }
+  h2 {
+    font-size: 1.3rem;
   }
+
+  p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+}
+
+.comm_card:hover {
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
+  -moz-box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
+  box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
 }

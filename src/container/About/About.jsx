@@ -69,6 +69,11 @@ const About = () => {
           <hr />
           <p className="abtdesc" style={{ marginTop: 25 }}>I will write a well structured article for you, your product, or any given topic along with proper banners and pictures.</p>
         </div>
+
+      </div>
+
+
+      <div className="about__profiles" style={{ marginTop: "3.3rem" }}>
         <div
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
@@ -82,6 +87,8 @@ const About = () => {
           <p className="abtdesc" style={{ marginTop: 25 }}>I will design a clean and minimal prototype using tools like Canva, Figma based on your choice of themes.</p>
         </div>
       </div>
+
+
 
     </>
   );

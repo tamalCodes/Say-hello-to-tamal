@@ -19,18 +19,25 @@ const Testimonial = () => {
 
   return (
     <>
-      <h2 className="head-text" style={{ marginBottom: "2rem" }}> Hear From My <span>Satisfied Clients</span> and <br /> Their Success Stories </h2>
+      <h2 className="head-text" style={{ marginBottom: "4rem" }}> Hear From My <span>Satisfied Clients</span> and <br /> Their Success Stories </h2>
+
       {testtimonialdata.length && (
         <>
-          <div className="app__testimonial-item app__flex">
-            <img src={testtimonialdata[currentIndex].picture} alt={testtimonialdata[currentIndex].name} />
+          <div className="app__testimonial-item">
+
             <div className="app__testimonial-content">
               <p className="p-text">{testtimonialdata[currentIndex].description}</p>
+
+            </div>
+
+            <a className='app__testimonial-imgdiv' href={testtimonialdata[currentIndex].linkedin} target="_blank" rel='noreferrer'>
+              <img src={testtimonialdata[currentIndex].picture} alt={testtimonialdata[currentIndex].name} />
               <div>
                 <h4 className="bold-text">{testtimonialdata[currentIndex].name}</h4>
                 <h5 className="p-text">{testtimonialdata[currentIndex].postition}</h5>
               </div>
-            </div>
+            </a>
+
           </div>
 
           <div className="app__testimonial-btns app__flex">
