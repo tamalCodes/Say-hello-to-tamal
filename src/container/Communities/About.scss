@@ -7,10 +7,10 @@
 }
 
 .comm_card {
-  width: 310px;
-  max-width: 310px;
+  width: 300px;
+  max-width: 300px;
   padding: 20px;
-  background-color: #F2F7FB;
+  background-color: #ffffff;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -36,8 +36,6 @@
 }
 
 .comm_card:hover {
-  transform: translateY(-3px);
-  -webkit-box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
-  -moz-box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
-  box-shadow: 0px 0px 51px 0px rgba(49, 59, 172, 0.6);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }

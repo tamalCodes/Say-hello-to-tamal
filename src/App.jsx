@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable quotes */
 import React, { useEffect } from "react";
-
-
 import "./App.scss";
 
 import { Landing } from "./container";
@@ -12,6 +10,7 @@ import Resume from "./container/resume/Resume";
 import Linkedin from "./container/linkedin/Linkedin";
 import Github from "./container/github/Github";
 import Twitter from "./container/twitter/Twitter";
+import Milan from "./container/milan/Milan";
 
 
 const App = () => {
@@ -30,6 +29,7 @@ const App = () => {
           <Route exact path="/github" element={<Github />} />
           <Route exact path="/linkedin" element={<Linkedin />} />
           <Route exact path="/twitter" element={<Twitter />} />
+          <Route exact path="/milan" element={<Milan />} />
         </Routes>
 
       </Router>

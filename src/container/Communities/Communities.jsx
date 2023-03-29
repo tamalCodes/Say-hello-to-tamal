@@ -3,12 +3,9 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable jsx-quotes */
 import React from "react";
-
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
 import communityData from "./communityData";
-import { motion } from "framer-motion";
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
 const Communities = () => (
   <>
@@ -17,9 +14,7 @@ const Communities = () => (
       Giving back to <span>the community 💙 </span> <br />
     </h2>
 
-    <div className="comm_cardsdiv" whileInView={{ opacity: 1 }}
-      whileHover={{ scale: 1.1 }}
-      transition={{ duration: 0.5, type: 'tween' }}>
+    <div className="comm_cardsdiv">
       {communityData.map((el, index) => (
         <a className="comm_card" href={el.tweetlink} target="_blank" rel="noreferrer" >
 
@@ -42,5 +37,5 @@ const Communities = () => (
 export default AppWrap(
   MotionWrap(Communities, "app__about"),
   "community work",
-  "app__whitebg"
+  "app__primarybg"
 );
