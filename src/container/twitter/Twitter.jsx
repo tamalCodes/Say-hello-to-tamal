@@ -13,7 +13,7 @@ const Twitter = () => {
     return (
         <>
             <div className='externalpage' style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: 'auto', justifyItems: 'center', fontWeight: '600', fontFamily: 'sans-serif', fontSize: '3rem', height: '100vh' }}>
-                <img src={twitter} alt="" style={{ width: "60%", borderRadius: "15px", marginBottom: "50px" }} />
+                {/*  <img src={twitter} alt="" style={{ width: "60%", borderRadius: "15px", marginBottom: "50px" }} /> */}
                 <p> Loading Tamal's tweets 🚀 </p>
             </div>
 
