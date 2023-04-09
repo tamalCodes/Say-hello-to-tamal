@@ -7,7 +7,7 @@ import sass from "../assets/sass.png";
 import vue from "../assets/vue.png";
 import git from "../assets/git.png";
 
-import profile from "../assets/profile.svg";
+import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 
