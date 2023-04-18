@@ -12,7 +12,7 @@ const testtimonialdata = [
     picture: Niloy,
     postition: "GSoC'22@SCoRe Lab | JGEC Founder",
     description:
-      "Tamal is one of the most skillful and talented open source developers I have come across at JGEC Winter of Code 2K22, he facilitated numerous mentorship calls for the participants. On behalf of the entire Organizing Team of JWOC 2K22, I highly appreciate Tamal's efforts to foster the spirit of community bonding and cooperation among the aspiring software developers. His imaginative prowess and enthusiasm will be a great asset to any organization.",
+      "Tamal was a skilled open-source developer at JWOC 2K22, facilitating mentorship calls for participants. His community-building efforts and enthusiasm make him an asset to any organization.",
     linkedin: "https://www.linkedin.com/in/niloysikdar/",
   },
   {
@@ -30,7 +30,7 @@ const testtimonialdata = [
     picture: Donald,
     postition: "CEO @Innception",
     description:
-      "Tamal was a great dev at my team, i loved the way he developed an algorithm quick and easily and he was very punctual during dev-meets irrespective of the time differences we have , i highly recommend him for his upcoming positions.",
+      "I highly recommend Tamal for his upcoming positions. He was a great dev on my team, developing algorithms quickly and easily. He was also punctual during dev-meets, despite time differences.",
     linkedin: "https://www.linkedin.com/in/donaldnbaker/",
   },
   {
@@ -39,7 +39,7 @@ const testtimonialdata = [
     picture: ShivamKumar,
     postition: "DC Analyst at Deloitte USI, AI&DE",
     description:
-      "Tamal has been an amazing web developer, as a client i am super happy with the work despite of the time crunches.",
+      "Tamal's amazing web dev skills impressed me as a client. Despite time crunches, I'm extremely satisfied with the work he delivered.",
     linkedin: "https://www.linkedin.com/in/kumar-shivam-855589160/",
   },
 ];

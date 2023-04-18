@@ -18,7 +18,9 @@ const Landing = () => {
             <Work />
             <Skills />
             <Communities />
-            <Testimonial />
+            <div style={{ backgroundColor: "white" }}>
+                <Testimonial />
+            </div>
             <Footer />
         </div>
     )

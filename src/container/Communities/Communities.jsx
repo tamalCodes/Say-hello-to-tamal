@@ -4,7 +4,7 @@
 /* eslint-disable jsx-quotes */
 import React from "react";
 import { AppWrap, MotionWrap } from "../../wrapper";
-import "./About.scss";
+import "./Community.scss";
 import communityData from "./communityData";
 
 const Communities = () => (

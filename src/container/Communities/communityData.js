@@ -24,7 +24,7 @@ const communityData = [
     img: debuggerr,
     title: "Lead organizer Debugger 4.0",
     description:
-      "Organized Debugger 4.0 - an offline coding event with 100+ participants",
+      "Organized an offline event, Debugger 4.0, with 100+ participants",
     visitlink:
       "https://www.linkedin.com/feed/update/urn:li:activity:7033477698911948800/",
     tweetlink: "https://twitter.com/mrTamall/status/1627718153991249920",
@@ -33,7 +33,7 @@ const communityData = [
     img: gssoc,
     title: "Opensource Mentor",
     description:
-      "Was selected as one of the Opensource mentor for Girlscript Summer of Code 2022",
+      "Selected as an Opensource mentor for Girlscript Summer of Code 2022.",
     visitlink: "https://i.ibb.co/2F9JqP6/mentor-card.jpg",
     tweetlink: "https://twitter.com/mrTamall/status/1576580470699163649",
   },
@@ -41,7 +41,7 @@ const communityData = [
     img: MAIT,
     title: "GDSC MAIT - Hacktoberfest'22",
     description:
-      "Spoke about Opensource, Hacktoberfest and getting started with it at an event by GDSC Mait with about 200+ students",
+      "Spoke at GDSC Mait event on Opensource, Hacktoberfest with 200+ students.",
     visitlink: "https://i.ibb.co/QvfVf0L/MAIT.jpg",
     tweetlink: "https://twitter.com/mrTamall/status/1576580470699163649",
   },
@@ -49,7 +49,7 @@ const communityData = [
     img: android,
     title: "Organized Android Workshop ",
     description:
-      "Conducted an Android Development workshop under ACM UEMk with 70+ members",
+      "Conducted Android Development workshop with ACM UEMk for 70+ members.",
     visitlink: "https://i.ibb.co/CK8sFgs/IMG-2685.jpg",
     tweetlink:
       "https://www.linkedin.com/feed/update/urn:li:activity:6919480630602870784/",
@@ -58,7 +58,7 @@ const communityData = [
     img: hacktoberfest,
     title: "Demystifying Hacktoberfest",
     description:
-      "Conducted a session on Git and GitHub along with Praveen sir, Tapas Adhikary sir, Susmita with over 400 people joining the livestream",
+      "Conducted Git and GitHub session with 400+ people watching live.",
     visitlink: "https://i.ibb.co/FBBMdqn/Hacktoberfest-susmita.png",
     tweetlink: "https://twitter.com/mrTamall/status/1580475933072314369",
   },
@@ -74,7 +74,7 @@ const communityData = [
     img: Unilag,
     title: "GDSC UNILAG Hacktoberfest'22",
     description:
-      "I was invited as a speaker to speak at an event organised to introduce Hacktoberfest and the concept of Open source.",
+      "Invited as speaker to introduce Hacktoberfest and Open source concept.",
     visitlink: "https://i.ibb.co/tJ7ncxR/Unilag.jpg",
     tweetlink:
       "https://www.linkedin.com/feed/update/urn:li:activity:6986221096706461696/",
@@ -83,7 +83,7 @@ const communityData = [
     img: azure,
     title: "Azure Dev Day",
     description:
-      "Had an awesome in-person workshop and geeking out session with folks from around the city at Azure dev day 2022",
+      "Had a great workshop and geeking out session with Azure dev day 2022 attendees. ",
     visitlink: "https://i.ibb.co/2F9JqP6/mentor-card.jpg",
     tweetlink: "https://twitter.com/mrTamall/status/1576580470699163649",
   },

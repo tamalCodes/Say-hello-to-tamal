@@ -1,59 +1,81 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable padded-blocks */
-/* eslint-disable quotes */
-import React, { useState, useEffect } from 'react';
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
-import { AppWrap, MotionWrap } from '../../wrapper';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+import { Pagination, Autoplay } from 'swiper';
+import Testimonialcard from './card/TestimonialCard';
 import './Testimonial.scss';
 import testtimonialdata from './testtimonialData';
+import { AppWrap, MotionWrap } from '../../wrapper';
+import { SocialMedia } from '../../components';
 
-const Testimonial = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+const Testimonial = () => (
+  <div style={{ position: "relative" }}>
 
-  const handleClick = (index) => {
-    setCurrentIndex(index);
-  };
+    <div className="testimonials_socialmedia" style={{ position: "absolute", top: "40%" }}>
+      <SocialMedia />
+    </div>
+    <div className="testimonials_parent">
 
-  return (
-    <>
-      <h2 className="head-text" style={{ marginBottom: "4rem" }}> Hear From My <span>Satisfied Clients</span> and <br /> Their Success Stories </h2>
+      <h2 className="head-text">Hear From <span> My Satisfied Clients</span> <br /> And
+        Their Success Stories
+      </h2>
 
-      {testtimonialdata.length && (
-        <>
-          <div className="app__testimonial-item">
 
-            <div className="app__testimonial-content">
-              <p className="p-text">{testtimonialdata[currentIndex].description}</p>
 
-            </div>
-
-            <a className='app__testimonial-imgdiv' href={testtimonialdata[currentIndex].linkedin} target="_blank" rel='noreferrer'>
-              <img src={testtimonialdata[currentIndex].picture} alt={testtimonialdata[currentIndex].name} />
-              <div>
-                <h4 className="bold-text">{testtimonialdata[currentIndex].name}</h4>
-                <h5 className="p-text">{testtimonialdata[currentIndex].postition}</h5>
-              </div>
-            </a>
-
-          </div>
-
-          <div className="app__testimonial-btns app__flex">
-            <div className="app__flex" onClick={() => handleClick(currentIndex === 0 ? testtimonialdata.length - 1 : currentIndex - 1)}>
-              <HiChevronLeft />
-            </div>
-
-            <div className="app__flex" onClick={() => handleClick(currentIndex === testtimonialdata.length - 1 ? 0 : currentIndex + 1)}>
-              <HiChevronRight />
-            </div>
-          </div>
-        </>
+      {window.innerWidth > 1200 ? (
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={40}
+          autoplay={{
+            delay: 2500,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          {
+            testtimonialdata.map((testimonial, index) => (
+              <SwiperSlide key={index}> <Testimonialcard testimonial={testimonial} /> </SwiperSlide>
+            ))
+          }
+        </Swiper>
+      ) : (
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={40}
+          autoplay={{
+            delay: 2500,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          {
+            testtimonialdata.map((testimonial, index) => (
+              <SwiperSlide key={index}> <Testimonialcard testimonial={testimonial} /> </SwiperSlide>
+            ))
+          }
+        </Swiper>
       )}
-    </>
-  );
-};
 
-export default AppWrap(
-  MotionWrap(Testimonial, 'app__testimonial'),
-  'testimonial',
-  'app__whitebg',
+      <br />
+      <br />
+      <br />
+    </div>
+
+  </div>
 );
+
+export default Testimonial
+
+// export default AppWrap(
+//   MotionWrap(Testimonial, 'app__testimonial'),
+//   'testimonial',
+//   'app__whitebg',
+// );
