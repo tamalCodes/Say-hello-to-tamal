@@ -54,9 +54,7 @@ const About = () => (
           given topic along with proper banners and pictures.
         </p>
       </div>
-    </div>
 
-    <div className="about__profiles" style={{ marginTop: "3.3rem" }}>
       <div className="about__profile-item">
         <img src={wd} alt="fronted" className="abtlogo" />
         <h2 className="abthead" style={{ marginTop: 20 }}>
