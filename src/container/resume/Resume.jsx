@@ -1,5 +1,3 @@
-/* https://drive.google.com/file/d/1N6SaRyXLIb9117wbCjlBiqOoadYAKzOw/view?usp=sharing */
-
 /* eslint-disable react/jsx-indent */
 import React, { useEffect } from 'react';
 
