@@ -1,5 +1,3 @@
-/* https://drive.google.com/file/d/1N6SaRyXLIb9117wbCjlBiqOoadYAKzOw/view?usp=sharing */
-
 /* eslint-disable react/jsx-indent */
 import React, { useEffect } from 'react';
 
@@ -8,7 +6,11 @@ const Resume = () => {
     useEffect(() => {
         if (window.location.pathname === '/resume') {
             setTimeout(() => {
+<<<<<<< HEAD
                 window.location.href = 'https://drive.google.com/file/d/1wZTqr5hlDmVqAnbidVrNfNtrdwJnznI3/view?usp=sharing';
+=======
+                window.location.href = 'https://drive.google.com/file/d/1QmJEv7oN6ebOfuTMgL4wHk42F8dFN3nJ/view?usp=sharing';
+>>>>>>> e1e70e9571fa006acbfb70f6604b4c5a7a27b00d
             }, 500);
         }
     }, []);
