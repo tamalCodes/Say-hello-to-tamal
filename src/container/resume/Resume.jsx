@@ -6,7 +6,7 @@ const Resume = () => {
     useEffect(() => {
         if (window.location.pathname === '/resume') {
             setTimeout(() => {
-                window.location.href = 'https://drive.google.com/file/d/1wZTqr5hlDmVqAnbidVrNfNtrdwJnznI3/view?usp=sharing';
+                window.location.href = 'https://drive.google.com/file/d/1xRnyQB1KsF6fZSbgHsqHfTtaomsLih07/view?usp=sharing';
             }, 500);
         }
     }, []);
