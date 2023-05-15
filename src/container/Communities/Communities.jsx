@@ -16,7 +16,7 @@ const Communities = () => (
 
     <div className="comm_cardsdiv">
       {communityData.map((el, index) => (
-        <a className="comm_card" href={el.tweetlink} target="_blank" rel="noreferrer" >
+        <a className="comm_card" href={el.tweetlink} target="_blank" rel="noreferrer" key={index} >
 
           <img src={el.img} alt={el.title} />
 

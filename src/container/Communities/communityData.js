@@ -9,8 +9,18 @@ import Unilag from "../../assets/community/Unilag.jpg";
 import azure from "../../assets/community/azure.jpg";
 import debuggerr from "../../assets/community/debugger.jpeg";
 import ureckathon from "../../assets/community/ureckathon.png";
+import beyondthesyntax from "../../assets/community/beyondthesyntax.jpg";
 
 const communityData = [
+  {
+    img: beyondthesyntax,
+    title: "Beyond the Syntax",
+    description:
+      "Spoke at a Twitter session with 5k+ people on Opensource, GSSOC and more.",
+    visitlink: "https://twitter.com/girlscriptsoc/status/1656969966149832706",
+    tweetlink:
+      "https://twitter.com/girlscriptsoc/status/1656969966149832706",
+  },
   {
     img: ureckathon,
     title: "Organized Ureckathon",
