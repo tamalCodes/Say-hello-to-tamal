@@ -6,7 +6,7 @@ const Twitter = () => {
     useEffect(() => {
         if (window.location.pathname === '/twitter') {
             setTimeout(() => {
-                window.location.href = 'https://twitter.com/mrTamall';
+                window.location.href = 'https://twitter.com/tamalCodes';
             }, 800);
         }
     }, []);
