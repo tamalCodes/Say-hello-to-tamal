@@ -6,7 +6,7 @@ const Github = () => {
     useEffect(() => {
         if (window.location.pathname === '/github') {
             setTimeout(() => {
-                window.location.href = 'https://github.com/IAmTamal';
+                window.location.href = 'https://github.com/tamalCodes';
             }, 800);
         }
     }, []);
