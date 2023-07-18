@@ -13,6 +13,7 @@ import Twitter from "./container/twitter/Twitter";
 import Milan from "./container/milan/Milan";
 import GoogleDrive from "./container/Drive/GoogleDrive";
 import Notes from "./container/notes/Notes";
+import Prep from "./container/Prep/Prep";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route exact path="/milan" element={<Milan />} />
           <Route exact path="/drive" element={<GoogleDrive />} />
           <Route exact path="/notes" element={<Notes />} />
+          <Route exact path="/prep" element={<Prep />} />
         </Routes>
       </Router>
     </>

@@ -1,15 +1,18 @@
+/* eslint-disable quotes */
+/* eslint-disable react/jsx-indent */
 import React, { useEffect } from "react";
-import twitter from "../../assets/twitter/twitter.svg";
 
-const Twitter = () => {
-  document.title = "Tamal's Twitter";
+const Prep = () => {
+  document.title = "Tamal's Notes";
   useEffect(() => {
-    if (window.location.pathname === "/twitter") {
+    if (window.location.pathname === "/prep") {
       setTimeout(() => {
-        window.location.href = "https://twitter.com/tamalCodes";
-      }, 800);
+        window.location.href =
+          "https://github.com/tamalCodes/literally-learning";
+      }, 500);
     }
   }, []);
+
   return (
     <>
       <div
@@ -28,11 +31,10 @@ const Twitter = () => {
           height: "100vh",
         }}
       >
-        {/*  <img src={twitter} alt="" style={{ width: "60%", borderRadius: "15px", marginBottom: "50px" }} /> */}
-        <p> Loading Tamal's tweets 🚀 </p>
+        <p> Loading Tamal's Notes 🚀 </p>
       </div>
     </>
   );
 };
 
-export default Twitter;
+export default Prep;
